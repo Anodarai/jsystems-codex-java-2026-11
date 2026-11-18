@@ -2,11 +2,11 @@
 
 ## Project
 
-This is the **participant materials repository** for "OpenAI Codex w codziennej pracy programistycznej przy projektach Java", organized by JSystems, 28-30.10.2026, three days, 09:00-16:00 Europe/Warsaw. The taught tool is OpenAI Codex. Participants use prepared Windows 11 VMs with PowerShell and native Codex sandboxing; WSL is not assumed. They use trainer-provided ChatGPT Business accounts and their own projects on the course GitLab (self-managed 19.5, `jsystems-gitlab.polandcentral.cloudapp.azure.com`) with glab.
+This is the **participant materials repository** for "OpenAI Codex w codziennej pracy programistycznej przy projektach Java", organized by JSystems, 18-20.11.2026, three days, 09:00-16:00 Europe/Warsaw. The taught tool is OpenAI Codex. Participants use prepared Windows 11 VMs with PowerShell and native Codex sandboxing; WSL is not assumed. They use trainer-provided ChatGPT Business accounts and their own projects on the course GitLab (self-managed 19.5, `gitlab-devpowers.polandcentral.cloudapp.azure.com`) with glab.
 
 The agreed route is jFTP legacy discovery on day 1, Eclipse Cargo Tracker analysis and a read-only cargo-status feature on day 2, then review, GitLab merge requests, javax-to-jakarta migration and read-only Apache Fineract analysis on day 3. jFTP and Cargo Tracker are separate clones; never commit their sources here. Fineract is read-only. No chatbot or Spring AI service is required.
 
-The [materials hub](https://devpowers.com/szkolenia/jsystems/codex-java-2026-10/) lists the presentations in teaching order. Exercise instructions are in course-materials/exercises/cargo-tracker.md, cargo-tracker-tickets.md and fineract-multi-agent.md; open them only for an explicitly requested exercise.
+The [materials hub](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/) lists the presentations in teaching order. Exercise instructions are in course-materials/exercises/cargo-tracker.md, cargo-tracker-tickets.md and fineract-multi-agent.md; open them only for an explicitly requested exercise.
 
 Chat in Polish unless the user requests another language. Application documentation uses English; participant instructions use Polish. The library is not an application specification. For application work, inspect the actual separate checkout, PRD, ADRs, build descriptors and commands. Never assume a runtime, framework or build tool from these examples.
 

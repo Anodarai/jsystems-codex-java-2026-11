@@ -51,7 +51,7 @@ codex login status
 Pracujemy na GitLab szkoleniowym (GitLab 19.5, self-managed), nie na GitLab.com. Login, hasło i token dostajesz od trenera w prywatnej wiadomości. Tokena nie wklejaj na czat ani do Codex.
 
 ```powershell
-$env:GL = 'jsystems-gitlab.polandcentral.cloudapp.azure.com'
+$env:GL = 'gitlab-devpowers.polandcentral.cloudapp.azure.com'
 ```
 
 ```powershell
@@ -190,7 +190,7 @@ git switch -c feature/cargo-status
 codex -s workspace-write
 ```
 
-Wklej [P30: pełny kontrakt cargo-status](https://devpowers.com/szkolenia/jsystems/codex-java-2026-10/prompty.html#P30-cargo-spec). To główny prompt do specyfikacji; P01/P02/P19 są przykładami do pogłębienia, nie drugim przebiegiem zadania. Przed uruchomieniem sprawdź wykrywanie write-prd i write-adr na koncie szkoleniowym. Brak skilla zgłoś trenerowi, nie proś agenta o odczyt biblioteki poza jego workspace.
+Wklej [P30: pełny kontrakt cargo-status](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/prompty.html#P30-cargo-spec). To główny prompt do specyfikacji; P01/P02/P19 są przykładami do pogłębienia, nie drugim przebiegiem zadania. Przed uruchomieniem sprawdź wykrywanie write-prd i write-adr na koncie szkoleniowym. Brak skilla zgłoś trenerowi, nie proś agenta o odczyt biblioteki poza jego workspace.
 
 Kontrakt do sprawdzenia z PRD: GET `/rest/cargo/{trackingId}/status`; 200 application/json z trackingId, transportStatus, routingStatus, misdirected i lastKnownLocation (UN/LOCODE); 404 dla poprawnego nieznanego ID; 400 dla ID spoza `[A-Za-z0-9]{4,32}`. Bez normalizacji wielkości liter, bez zapisu, JMS i zmian istniejącego SSE. Uzgodnij reprezentację nieznanej lokalizacji przed testem. Sprawdź znaczenie statusów w Delivery.
 
@@ -246,7 +246,7 @@ Sprawdź 200/400/404 i zgodność JSON z PRD. Wynik: zielone testy, działający
 
 ## 4. Review z nowej sesji, 30 minut
 
-Cel: niezależne spojrzenie bez historii autora. [P08: review drugiego agenta](https://devpowers.com/szkolenia/jsystems/codex-java-2026-10/prompty.html#P08-testy-przeglad-zmian) jest pełnym promptem; poniższa lista wyznacza sprawdzany zakres Cargo. Uruchom osobną sesję tylko do odczytu.
+Cel: niezależne spojrzenie bez historii autora. [P08: review drugiego agenta](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/prompty.html#P08-testy-przeglad-zmian) jest pełnym promptem; poniższa lista wyznacza sprawdzany zakres Cargo. Uruchom osobną sesję tylko do odczytu.
 
 ```powershell
 codex -s read-only

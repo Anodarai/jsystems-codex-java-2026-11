@@ -20,7 +20,7 @@ W oknie KURS otwieraj wyłącznie repozytoria szkoleniowe z `%USERPROFILE%\Codex
 Wymagane: Git, Codex CLI, glab, VS Code (`code` w PATH). Pobierz skrypt:
 
 ```powershell
-Invoke-WebRequest -UseBasicParsing -OutFile "$HOME\Downloads\Start-CodexKurs.ps1" -Uri https://raw.githubusercontent.com/LucasMatuszewski/jsystems-codex-java-2026-10/main/course-materials/agent-configs/codex/laptop-kurs/Start-CodexKurs.ps1
+Invoke-WebRequest -UseBasicParsing -OutFile "$HOME\Downloads\Start-CodexKurs.ps1" -Uri https://raw.githubusercontent.com/LucasMatuszewski/jsystems-codex-java-2026-11/main/course-materials/agent-configs/codex/laptop-kurs/Start-CodexKurs.ps1
 ```
 
 Sprawdź stan bez otwierania okien:

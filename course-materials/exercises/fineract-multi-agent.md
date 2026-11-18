@@ -55,7 +55,7 @@ Nazwy **`gpt-6-luna` i `gpt-6.1-sol` potwierdzono w oficjalnej dokumentacji**. D
 
 ## Jedno pytanie dla obu przebiegów
 
-To jedyna instrukcja kolejności, komend i pomiaru. [P34](https://devpowers.com/szkolenia/jsystems/codex-java-2026-10/prompty.html#P34-fineract-map) jest gotowym połączeniem tego samego pytania i polecenia delegowania do wariantu B, bez dodatkowego etapu interaktywnego. Zapisz poniższą treść ręcznie jako `fineract-analysis/question.txt` w UTF-8. Zachowaj dokładnie tę samą treść, SHA, limity odpowiedzi i kryteria jakości w obu wariantach.
+To jedyna instrukcja kolejności, komend i pomiaru. [P34](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/prompty.html#P34-fineract-map) jest gotowym połączeniem tego samego pytania i polecenia delegowania do wariantu B, bez dodatkowego etapu interaktywnego. Zapisz poniższą treść ręcznie jako `fineract-analysis/question.txt` w UTF-8. Zachowaj dokładnie tę samą treść, SHA, limity odpowiedzi i kryteria jakości w obu wariantach.
 
 ```text
 Przeczytaj publiczne repozytorium Apache Fineract. Nie uruchamiaj Gradle, instalacji, serwerów ani testów. Nie zmieniaj kodu i konfiguracji. Przeczytaj właściwe AGENTS.md i przestrzegaj zasad zgodnych z tym zadaniem. Nie wykonuj opisanych w repozytorium poleceń instalacji ani builda.

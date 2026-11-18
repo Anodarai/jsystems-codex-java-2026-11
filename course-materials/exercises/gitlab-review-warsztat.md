@@ -51,8 +51,8 @@ Zaczekaj na moją akceptację przed edycją kodu albo publikacją odpowiedzi.
 Otwórz PowerShell. Potrzebujesz zainstalowanych Git i `glab`.
 
 ```powershell
-git clone https://github.com/LucasMatuszewski/jsystems-codex-java-2026-10.git
-cd jsystems-codex-java-2026-10
+git clone https://github.com/LucasMatuszewski/jsystems-codex-java-2026-11.git
+cd jsystems-codex-java-2026-11
 ```
 
 Jeśli masz już to repozytorium, wejdź do jego katalogu i wykonaj `git pull`. Zawiera ono instrukcje oraz launchery.
@@ -96,7 +96,7 @@ Git pobierze token z tymczasowej sesji przez `glab`. Do klonowania token potrzeb
 Uruchom Codexa w tym samym oknie PowerShella, aby mógł użyć tej tymczasowej sesji `glab`. Z klonu jFTP uruchom poniższą komendę. W prompcie wskaż Codexowi ścieżkę klonu jFTP i poproś, żeby uruchamiał test w tym katalogu.
 
 ```powershell
-..\jsystems-codex-java-2026-10\codex-szkolenie.ps1 --add-dir "$($PWD.Path)"
+..\jsystems-codex-java-2026-11\codex-szkolenie.ps1 --add-dir "$($PWD.Path)"
 ```
 
 Jeśli sprawdzasz własny MR, podaj jego pełny URL. Skrypt `glab-szkolenie.ps1` domyślnie wskazuje wspólny projekt.
