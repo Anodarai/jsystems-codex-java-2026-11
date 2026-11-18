@@ -1,3 +1,11 @@
+# UPDATES !!!
+
+## Po pierwszym dniu (18.11)
+
+- [Historia czatu z dnia 1](course-materials/zoom-summary-chat-history/day-1-chat-history.md) obejmuje wiadomości od 10:58.
+
+---
+
 # OpenAI Codex w codziennej pracy programistycznej przy projektach Java (JSystems)
 
 **Materiały szkoleniowe: [devpowers.com/szkolenia/jsystems/codex-java-2026-11](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/)**
