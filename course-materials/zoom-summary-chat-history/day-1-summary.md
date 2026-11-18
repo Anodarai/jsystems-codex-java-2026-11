@@ -37,7 +37,11 @@ Zamiast opierać wybór modelu na pojedynczej etykiecie lub rankingu, warto por�
 
 W krótkim ćwiczeniu można było zaproponować grę inspirowaną grą z dzieciństwa lub postacią z filmu albo książki, albo wybrać dowolną aplikację webową.
 
-Omówiono także modele open source i rozwój modeli z różnych regionów. Wspomniano o buforowaniu jako elemencie pracy z modelami; szczegóły i warunki działania należy sprawdzać w aktualnych materiałach dostawcy, zamiast zakładać, że pozostają niezmienne.
+Omówiono także modele open source i rozwój modeli z różnych regionów.
+
+**Prompt caching** pozwala ponownie wykorzystać przetworzony początek promptu. W październiku 2026 r. Tibo Sottiaux zapowiedział, że cache dla zalogowanych użytkowników Codex i ChatGPT Work ma być przechowywany bezterminowo. [Zapowiedź Tibo](https://x.com/thsottiaux/status/2112712984644784534)
+
+W Responses API dla obsługiwanych modeli można wybrać minimalny czas przechowywania cache’u wynoszący 12 godzin. W starszym trybie `in_memory` cache zwykle utrzymuje się przez 5–10 minut bezczynności, maksymalnie przez godzinę. [Dokumentacja OpenAI API](https://developers.openai.com/api/docs/guides/prompt-caching)
 
 ## Uprawnienia i bezpieczna praca z repozytoriami
 
@@ -81,7 +85,7 @@ W trakcie pracy z jFTP pojawiło się również przejście do katalogu `D:\jftp\
 ## Inne udostępnione narzędzia
 
 - [CrewAI](https://crewai.com/) — framework do tworzenia zespołów agentów.
-- [Cursor](https://cursor.com/) — edytor kodu z agentem AI. [Tabnine](https://docs.tabnine.com/main) należał do wczesnych narzędzi AI do autouzupełniania kodu. Deep TabNine pojawił się w 2019 r., a techniczna wersja zapoznawcza GitHub Copilota w 2021 r.
+- [Cursor](https://cursor.com/) — edytor kodu z agentem AI. [Tabnine](https://docs.tabnine.com/main) należał do wczesnych narzędzi AI do autouzupełniania kodu. Deep TabNine ogłoszono w 2019 r., a wersję testową GitHub Copilota udostępniono w 2021 r. [Ogłoszenie Deep TabNine](https://news.ycombinator.com/item?id=20442606) · [Ogłoszenie GitHub Copilota](https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/)
 - [Atuin](https://atuin.sh/) — wyszukiwanie i synchronizacja historii poleceń.
 - [tmux — wiki](https://github.com/tmux/tmux/wiki) i [tmux.app](https://tmux.app/) — multiplekser sesji terminalowych.
 - [Omarchy](https://omarchy.org/) — środowisko Linux dla programistów; wspomniano też o Termux na Androidzie.
