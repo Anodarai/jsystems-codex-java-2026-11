@@ -8,7 +8,7 @@ https://gitlab-devpowers.polandcentral.cloudapp.azure.com
 
 Użyj swojego konta szkoleniowego. Otwórz wspólny merge request.
 
-https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/merge_requests/1
+https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/merge_requests/2
 
 Do ćwiczenia używamy kodu jFTP i danych syntetycznych.
 
@@ -20,7 +20,7 @@ Założenie do MR: w zwykłym profilu FTP porty od 1 do 65535 mają zostać zach
 2. Poproś Codexa ze skillem `$respond-to-code-review` o pobranie dyskusji i diffu przez `glab`, zweryfikowanie jednej uwagi w kodzie i pokazanie dowodu w teście. Oba boty wskazały tę samą wartość graniczną, więc sprawdź, czy ich zgodność wynika z kodu.
 3. Po sprawdzeniu propozycji pozwól Codexowi dodać test do `RemoteHostCharacterizationTest` i uruchomić go na wersji z MR, a potem po lokalnej poprawce. Poproś o krótką odpowiedź z wynikiem przed jej opublikowaniem. Na wspólnym MR możesz skomentować po weryfikacji. Własny commit i ponowne uruchomienie review zrobisz w osobnym MR.
 
-[Komentarz PR-Agent](https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/merge_requests/1#note_19) · [Komentarz Codex CLI](https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/merge_requests/1#note_20) · [Log PR-Agent](https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/jobs/54) · [Log Codex CLI](https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/jobs/55)
+[Komentarz PR-Agent](https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/merge_requests/2#note_22) · [Komentarz Codex CLI](https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/merge_requests/2#note_23) · [Log PR-Agent](https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/jobs/58) · [Log Codex CLI](https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/jobs/59)
 
 Uruchom test z katalogu jFTP z JDK 21. W PowerShellu użyj:
 
@@ -34,7 +34,7 @@ Na Linuksie użyj `./mvnw` z tymi samymi argumentami.
 
 ```text
 Użyj $respond-to-code-review dla tego MR:
-https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/merge_requests/1
+https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp/-/merge_requests/2
 
 Pobierz przez glab dyskusje, diff i status CI. Wskaż, gdzie PR-Agent
 i Codex CLI zgadzają się w ocenie RemoteHost.setPort. Sprawdź kontrakt
@@ -72,9 +72,9 @@ Skrypt sprawdzi konto i otworzy tymczasową sesję PowerShell w tym samym oknie 
 W nowo otwartej sesji wpisuj osobno:
 
 ```powershell
-glab mr view 1 --comments
-glab mr diff 1
-glab api --hostname $env:GITLAB_HOST 'projects/lucas%2Fdogrywka-jftp/merge_requests/1/discussions' --paginate
+glab mr view 2 --comments
+glab mr diff 2
+glab api --hostname $env:GITLAB_HOST 'projects/lucas%2Fdogrywka-jftp/merge_requests/2/discussions' --paginate
 ```
 
 Do tych poleceń wystarcza odczyt API GitLaba. Jeśli chcesz opublikować odpowiedź przez `glab`, potrzebujesz tokenu z zakresem `api` i prawa do komentowania w projekcie. Na wspólnym projekcie rola Reporter pozwala komentować. Własną gałąź z review uruchomisz w projekcie, w którym masz co najmniej rolę Developer i dostępnego runnera. [Uprawnienia GitLab](https://docs.gitlab.com/user/permissions/#project-merge-requests) · [Zakresy tokenów](https://docs.gitlab.com/user/profile/personal_access_tokens/#personal-access-token-scopes)
@@ -87,7 +87,7 @@ W tej sesji przejdź poziom wyżej, żeby klon aplikacji znalazł się obok repo
 
 ```powershell
 cd ..
-git -c credential.helper= -c "credential.helper=!glab auth git-credential" clone --branch warsztat/port-ftp https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp.git
+git -c credential.helper= -c "credential.helper=!glab auth git-credential" clone --branch warsztat/port-ftp-grupa-2 https://gitlab-devpowers.polandcentral.cloudapp.azure.com/lucas/dogrywka-jftp.git
 cd dogrywka-jftp
 ```
 

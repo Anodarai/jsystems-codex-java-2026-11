@@ -47,9 +47,9 @@ try {
     }
     $account = $response | ConvertFrom-Json
     Write-Host "GitLab szkoleniowy - konto $($account.username)"
-    Write-Host 'Projekt dogrywka-jftp, MR 1. Polecenia do cwiczenia'
-    Write-Host '  glab mr view 1'
-    Write-Host '  glab mr diff 1'
+    Write-Host 'Projekt dogrywka-jftp, MR 2. Polecenia do cwiczenia'
+    Write-Host '  glab mr view 2'
+    Write-Host '  glab mr diff 2'
     Write-Host 'Zamknij sesje poleceniem exit.'
     Push-Location -LiteralPath $PSScriptRoot
     try {
