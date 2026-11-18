@@ -2,6 +2,7 @@
 
 ## Po pierwszym dniu (18.11)
 
+- [Podsumowanie dnia 1](course-materials/zoom-summary-chat-history/day-1-summary.md).
 - [Historia czatu z dnia 1](course-materials/zoom-summary-chat-history/day-1-chat-history.md) obejmuje wiadomości od 10:58.
 
 ---
