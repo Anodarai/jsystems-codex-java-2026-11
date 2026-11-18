@@ -57,11 +57,11 @@ Wiadomości publiczne w kolejności chronologicznej. Reakcje oznaczają zliczeni
 
 - **12:35 — Łukasz Matuszewski:** /experimental w CLI
 
-- **12:37 — Łukasz Matuszewski:** ![Lista eksperymentalnych funkcji Codex w terminalu.](https://raw.githubusercontent.com/LucasMatuszewski/jsystems-codex-java-2026-11/main/course-materials/zoom-summary-chat-history/day-1-01.png)
+- **12:37 — Łukasz Matuszewski:** ![Lista eksperymentalnych funkcji Codex w terminalu.](./day-1-01.png)
 
 - **12:37 — Łukasz Matuszewski:** /statusline
 
-- **12:41 — Łukasz Matuszewski:** ![Pole polecenia i pasek statusu Codex w terminalu.](https://raw.githubusercontent.com/LucasMatuszewski/jsystems-codex-java-2026-11/main/course-materials/zoom-summary-chat-history/day-1-02.png)
+- **12:41 — Łukasz Matuszewski:** ![Pole polecenia i pasek statusu Codex w terminalu.](./day-1-02.png)
 
 - **12:42 — Łukasz Matuszewski:** glab version
 
@@ -181,7 +181,8 @@ Wiadomości publiczne w kolejności chronologicznej. Reakcje oznaczają zliczeni
 
 - **15:56 — Łukasz Matuszewski:** https://www.skills.sh/edukeyteam/agent-toolbox/respond-to-code-review/security/snyk
 
-- **16:01 — Łukasz Matuszewski:** code .
+- **16:01 — Łukasz Matuszewski:** code .  
+  `fresh .` — alternatywa dla VS Code, otwiera bieżący folder w edytorze Fresh.
 
 - **16:01 — Łukasz Matuszewski:** IDE TUI:  
   https://getfresh.dev/
