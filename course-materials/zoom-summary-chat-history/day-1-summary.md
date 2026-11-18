@@ -81,10 +81,10 @@ W trakcie pracy z jFTP pojawiło się również przejście do katalogu `D:\jftp\
 ## Inne udostępnione narzędzia
 
 - [CrewAI](https://crewai.com/) — framework do tworzenia zespołów agentów.
-- [Cursor](https://cursor.com/) i [Tabnine](https://docs.tabnine.com/main) — narzędzia wspierające programowanie.
+- [Cursor](https://cursor.com/) — edytor kodu z agentem AI. [Tabnine](https://docs.tabnine.com/main) należał do wczesnych narzędzi AI do autouzupełniania kodu. Deep TabNine pojawił się w 2019 r., a techniczna wersja zapoznawcza GitHub Copilota w 2021 r.
 - [Atuin](https://atuin.sh/) — wyszukiwanie i synchronizacja historii poleceń.
 - [tmux — wiki](https://github.com/tmux/tmux/wiki) i [tmux.app](https://tmux.app/) — multiplekser sesji terminalowych.
 - [Omarchy](https://omarchy.org/) — środowisko Linux dla programistów; wspomniano też o Termux na Androidzie.
 - [Herdr](https://herdr.dev/) — narzędzie do zarządzania wieloma agentami; udostępniono również [materiał o menedżerach agentów i zdalnych sesjach](https://github.com/LucasMatuszewski/jsystems-codex-java-2026-11/blob/main/course-materials/Research/agent-managers-and-remote-agents.md).
-- [Codex CLI — dokumentacja](https://learn.chatgpt.com/docs/codex/cli) i [instalator dla Windows](https://chatgpt.com/codex/install.ps1); instalator jest skryptem PowerShell.
+- [Codex CLI — dokumentacja](https://learn.chatgpt.com/docs/codex/cli) i [oficjalna instrukcja instalacji](https://learn.chatgpt.com/docs/codex/cli#getting-started) z opcją dla Windows.
 - [Prezentacja wprowadzająca](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/Prezentacja_01_Start_kursu.html) i [strona szkolenia z materiałami](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/).
