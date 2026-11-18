@@ -1,5 +1,18 @@
 # Historia czatu — dzień 1, 18 listopada 2026
 
+## Linki z początku dnia
+
+Te linki udostępniono na czacie przed rozłączeniem Zooma.
+
+- [CrewAI](https://crewai.com/) — framework do tworzenia zespołów agentów AI
+- [Instalator Codex CLI](https://chatgpt.com/codex/install.ps1) — skrypt PowerShell dla Windows
+- [Cursor](https://cursor.com/) — edytor kodu z agentem AI
+- [Start kursu](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/Prezentacja_01_Start_kursu.html) — prezentacja wprowadzająca
+- [Strona szkolenia](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/) — prezentacje i materiały kursowe
+- [Atuin](https://atuin.sh/) — wyszukiwanie i synchronizacja historii poleceń
+- [Codex CLI](https://learn.chatgpt.com/docs/codex/cli) — oficjalna dokumentacja OpenAI
+- [Tabnine](https://docs.tabnine.com/main) — dokumentacja asystenta programistycznego AI
+
 Wiadomości publiczne w kolejności chronologicznej. Reakcje oznaczają zliczenia przy wiadomościach, nie rozłączne głosy ani liczbę uczestników.
 
 ## Wiadomości
