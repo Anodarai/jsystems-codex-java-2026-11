@@ -1,5 +1,10 @@
 # UPDATES !!!
 
+## Po drugim dniu (19.11)
+
+- [Podsumowanie dnia 2](course-materials/zoom-summary-chat-history/day-2-summary.md).
+- [Historia czatu z dnia 2](course-materials/zoom-summary-chat-history/day-2-chat-history.md) i [lista zadań na jutro](course-materials/zoom-summary-chat-history/day-2-chat-history.md#lista-zada%C5%84-na-jutro).
+
 ## Po pierwszym dniu (18.11)
 
 - [Podsumowanie dnia 1](course-materials/zoom-summary-chat-history/day-1-summary.md).
