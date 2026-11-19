@@ -235,5 +235,5 @@ Wiadomości publiczne w kolejności chronologicznej. Reakcje oznaczają zliczeni
 - Hooks i permissions, custom provider profiles + alias (np. Ollama, OpenRouter, Z.ai)
 - analiza kosztów sesji / użytkownika ze skillem do analizy
 - Opcjonalnie: Context7 z custom RAG lokalnym z Legacy skill (agent ma pełną instrukcję w Skillu, wystarczy zapytać)
-- **Jeśli wystarczy czasu, zmienić wygląd jFTP.** Spisać krótkie wytyczne wizualne i pokazać na ich podstawie dodanie logo oraz zmianę kolorów.
+- **Jeśli wystarczy czasu, zmienić wygląd jFTP.** Uruchomić skill `create-design-system` na wybranej stronie referencyjnej. Na podstawie wygenerowanych wytycznych i zasobów pokazać, jak dodać logo i zmienić kolory w jFTP.
 - **Jeśli wystarczy czasu, pokazać uprawnienia i reguły Codex.** Sprawdzić, co blokuje Playwright, jeśli nadal się nie uruchamia. Pokazać też, jak działa uwierzytelnianie `gh` i `glab`, gdy tokeny są zapisane w Menedżerze poświadczeń Windows, a podwyższony sandbox działa jako osobny użytkownik bez dostępu do tych poświadczeń.
