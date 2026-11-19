@@ -203,9 +203,19 @@ Wiadomości publiczne w kolejności chronologicznej. Reakcje oznaczają zliczeni
 
 Łukasz Matuszewski · 16:33–17:07
 
+- **Priorytet dnia to dokończenie pracy nad jFTP.** Do innych aplikacji przejść tylko wtedy, gdy wystarczy czasu.
 - analiza sesji z tworzenia planu w trybie planowania wbudowanym (np. brak zapisanego pliku z planem, brak użycia context7, brak delegowania do sub-agentów)
 - konieczność wyjścia z trybu planowania aby zapisać plik z planem
 - commit planu, review planu (z agentami albo z zespołem, sprawdzenie spójności docs).
+- **Przed implementacją zainstalować Context7 MCP.** Pokazać uczestnikom, jak agent pobiera tylko potrzebne fragmenty dokumentacji, by oszczędzić miejsce w oknie kontekstu. Porównać czas researchu i zajętość okna kontekstu z sesją planowania, w której agenci używali Web Fetch.
+  - Uczestnikom, którzy nie założą bezpłatnego konta, przekazać klucz Context7 prywatnie.
+  - Alternatywnie dodać regułę, żeby research zawsze zlecać subagentom i odbierać krótkie wyniki w sesji głównej.
+- **Stworzyć własny skill planowania** na podstawie sesji z wbudowanym Plan Mode. Skill ma przypominać o kolejnych krokach.
+  - Zapisać plan w `docs/plans/` jako plik Markdown o nazwie opisującej zadanie.
+  - Przed implementacją przejrzeć wszystkie pliki dokumentacji objęte zmianą, usunąć sprzeczności i sprawdzić spójność planu z dokumentacją.
+  - Realizację rozdzielić między subagentów. Agent główny koordynuje pracę i opcjonalnie deleguje zadania do agentów CLI, np. OpenCode.
+  - Przypomnieć o rozpoczęciu nowej sesji do implementacji i użyciu `/goal` z plikiem planu. Jeśli środowisko agenta na to pozwala, agent może wykonać ten krok.
+  - Jako ostatni krok planu wpisać usunięcie pliku planu z repozytorium po weryfikacji wykonania, przeglądzie kodu i scaleniu PR.
 - /new + wykonanie planu z /goal i jak działa cel
 - konieczność monitorowania na starcie realizacji, często na początku błędy popełnia
 - Niedoskonałość "Approve for me" w Codex do pracy autonomicznej (dużo częściej Was pyta niż Claude) - wymusza to używania "Allow all" albo... Claude ;)
@@ -225,3 +235,5 @@ Wiadomości publiczne w kolejności chronologicznej. Reakcje oznaczają zliczeni
 - Hooks i permissions, custom provider profiles + alias (np. Ollama, OpenRouter, Z.ai)
 - analiza kosztów sesji / użytkownika ze skillem do analizy
 - Opcjonalnie: Context7 z custom RAG lokalnym z Legacy skill (agent ma pełną instrukcję w Skillu, wystarczy zapytać)
+- **Jeśli wystarczy czasu, zmienić wygląd jFTP.** Spisać krótkie wytyczne wizualne i pokazać na ich podstawie dodanie logo oraz zmianę kolorów.
+- **Jeśli wystarczy czasu, pokazać uprawnienia i reguły Codex.** Sprawdzić, co blokuje Playwright, jeśli nadal się nie uruchamia. Pokazać też, jak działa uwierzytelnianie `gh` i `glab`, gdy tokeny są zapisane w Menedżerze poświadczeń Windows, a podwyższony sandbox działa jako osobny użytkownik bez dostępu do tych poświadczeń.
