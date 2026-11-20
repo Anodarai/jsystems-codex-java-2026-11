@@ -1,5 +1,13 @@
 # UPDATES !!!
 
+## Po trzecim dniu (20.11)
+
+- Kod ćwiczenia i plan modernizacji znajdziecie w osobnym [repozytorium jFTP](https://github.com/LucasMatuszewski/jftp-2026-11-06), na gałęzi [`docs/modernization-plan`](https://github.com/LucasMatuszewski/jftp-2026-11-06/tree/docs/modernization-plan).
+- **Po szkoleniu** wybierzcie checklistę pasującą do Waszego projektu i odhaczajcie kolejne kroki w miarę wdrażania. [Materiały szkoleniowe](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/) · [Interaktywne checklisty](https://devpowers.com/szkolenia/jsystems/codex-java-2026-11/checklisty.html)
+- Dodaliśmy [podsumowanie dnia 3](course-materials/zoom-summary-chat-history/day-3-summary.md) i [historię czatu z dnia 3](course-materials/zoom-summary-chat-history/day-3-chat-history.md).
+- W indeksie kursu znajdziecie polecane osoby i konta do śledzenia na YouTube, X (Twitterze) i innych platformach. [Osoby i konta do śledzenia](course-materials/Course%20INDEX%20-%20AI%20in%20Programming.md#people-and-accounts-to-follow-in-ai)
+- Skill w Agent Toolbox analizuje historię sesji i użycie Codex, Claude Code oraz innych obsługiwanych agentów. Może wygenerować szczegółowy raport `report.html` do otwarcia w przeglądarce także offline. [Skill `agent-usage-analytics`](https://github.com/EdukeyTeam/agent-toolbox/tree/main/skills/agent-usage-analytics)
+
 ## Po drugim dniu (19.11)
 
 - [Podsumowanie dnia 2](course-materials/zoom-summary-chat-history/day-2-summary.md).
